@@ -1,0 +1,5 @@
+n8n_data/
+.env
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
