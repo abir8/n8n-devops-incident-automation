@@ -1,5 +1,7 @@
 # n8n DevOps Incident Automation with LLM
 
+![Workflow Diagram](images/Workflow.png)
+
 ## Description
 Technical implementation of a **DevOps incident automation pipeline** using **n8n**.  
 The workflow ingests monitoring alerts, applies severity logic, analyzes logs using an LLM, triggers notifications, and persists incident data.
@@ -68,7 +70,7 @@ admin / admin
 * Method: POST
 * Path: /incident-alert
 
-###Test Payload
+### Test Payload
 ```bash
 curl -X POST http://localhost:5678/webhook-test/incident-alert \
 -H "Content-Type: application/json" \
